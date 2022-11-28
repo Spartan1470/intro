@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  /*background-image: url(/img/piramedes.jpg);
+  background-repeat: no-repeat;*/
+  background: url(/img/piramedes.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background: url(/img/sprite-sheet.png);
+  animation: kick 0.5s steps(6) infinite;
+}
+@keyframes kick {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -3600px;
+  }
+}

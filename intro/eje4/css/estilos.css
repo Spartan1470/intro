@@ -1,0 +1,147 @@
+/*menu*/
+.cabezera{
+    width: 100%;
+    height: 100px;
+    background-color: #b2b2b2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-right: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(14, 107, 150);
+}
+/*sesion1*/
+.principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/city.jpg);
+    background-size: 100%;
+    background-position: 0 -300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.principal div{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+.principal div h1{
+    margin:0 ;
+    font-size:50px;
+    text-align: center;
+}
+.principal div p,.principal div a{
+    font-size:20px;
+    text-align: center;
+}
+.principal div a{
+    text-decoration: none;
+    color: white;
+    background-color:#1b9eda ;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.flotar{
+    display: flex;
+    justify-content: center;
+
+}
+.flotar div,
+.sly div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    position: absolute;
+    margin-top: -70px;
+}
+.flotar div img,
+.tienda div figure img,
+.sly div img{
+    width: 200px;
+}
+/*tienda*/
+.tienda
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tienda h2,
+.blog > h2,
+.sly h2{
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+}
+.tienda div,
+.blog div,
+.pro article{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tienda div figure figcaption{
+    text-align: center;
+}
+/*blog*/
+.blog div{
+    justify-content: space-between;
+}
+.blog div article {
+    width: 47%;
+}
+.blog div article img {
+    width: 100%;
+}
+/*sly*/
+.sly{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sly div{
+    position: relative;
+    margin-top: 20px;
+}
+/*pro*/
+.pro{
+    margin-top: 100px;
+   display: flex;
+   justify-content: center; 
+}
+.pro article{
+    flex-wrap: nowrap; 
+}
+.pro article figure img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+/*pie*/
+.pie {
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b2b2b2;
+}
+.pie div img{
+    width: 50px;
+}
+
